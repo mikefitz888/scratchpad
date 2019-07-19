@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspName": {
+            "value": "Delegated Access - POC"
+        },
+        "mspOfferDescription": {
+            "value": "Managed Services - POC"
+        },
+        "managedByTenantId": {
+            "value": "5cdb1731-3768-4123-b52f-5638f83f59f3"
+        },
+        "authorizations": {
+            "value": [
+                {
+                    "principalId": "8f06caae-a3b4-480e-8832-cec9c26ed5ea",
+                    "principalIdDisplayName": "Developer",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+                }
+            ]
+        }
+    }
+}
